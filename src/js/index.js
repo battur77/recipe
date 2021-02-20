@@ -1,9 +1,9 @@
-const arr = [20, 30, 40];
+const arr = [23, 44, 12];
 
-let myfunc = (a) => {
+let myfunc = a => {
   console.log(`too : ${a}`);
 };
 
-const arr2 = [...arr, 50, 60];
+const arr2 = [...arr, 44, 1223];
 
 myfunc(arr2[1]);

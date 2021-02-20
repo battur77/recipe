@@ -5,16 +5,16 @@ module.exports = {
   entry: "./src/js/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist")
   },
   devServer: {
-    contentBase: "./dist",
+    contentBase: "./dist"
   },
   plugins: [
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: "src/index.html",
-    }),
+      template: "src/index.html"
+    })
   ],
   module: {
     rules: [
@@ -24,10 +24,10 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: [["@babel/preset-env", { targets: "defaults" }]],
-          },
-        },
-      },
-    ],
-  },
+            presets: ["@babel/preset-env"]
+          }
+        }
+      }
+    ]
+  }
 };
