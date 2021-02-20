@@ -1,0 +1,1 @@
+(()=>{var o;o=[].concat([20,30,40],[50,60])[1],console.log("too : ".concat(o))})();
