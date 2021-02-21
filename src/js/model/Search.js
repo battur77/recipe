@@ -15,7 +15,7 @@ export default class Search {
 
       return this.result;
     } catch (error) {
-      alert("asuudal garsan: " + error);
+      console.log("asuudal garsan: " + error);
     }
   }
 }
